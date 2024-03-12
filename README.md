@@ -337,3 +337,15 @@ check and watch for updates on the fly.io console dashboard (`https://fly.io/das
 
 
 ---
+
+### &#x1F530; delete apps
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_damvfletmaintest.fly.dev_delete_1.png" alt="ss_damvfletmaintest.fly.dev_delete_1" style="display: block; margin: 0 auto;">
+</p>
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_damvfletmaintest.fly.dev_delete_2.png" alt="ss_damvfletmaintest.fly.dev_delete_2" style="display: block; margin: 0 auto;">
+</p>
+
+---
