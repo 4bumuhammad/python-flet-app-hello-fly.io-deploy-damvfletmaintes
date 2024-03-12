@@ -285,6 +285,28 @@ check and watch for updates on the fly.io console dashboard
 
 ### &#x1F530; check
 
+    ❯ flyctl status
+
+        App
+        Name     = damvfletmaintest                                        
+        Owner    = personal                                                
+        Hostname = damvfletmaintest.fly.dev                                
+        Image    = damvfletmaintest:deployment-01HRRJ28FJBQ027HR125YCSV7W  
+
+        Machines
+        PROCESS ID              VERSION REGION  STATE   ROLE    CHECKS                  LAST UPDATED         
+        app     080e092c6404e8  1       sin     started         1 total, 1 passing      2024-03-12T05:29:03Z
+        app     148ede5c5d4789  1       sin     started         1 total, 1 passing      2024-03-12T05:29:21Z
+
+
+
+    ❯ flyctl ips list
+
+        VERSION IP                      TYPE                    REGION  CREATED AT       
+        v6      2a09:8280:1::2d:a64e:0  public (dedicated)      global  40m15s ago      
+        v4      66.241.124.165          public (shared)                 Jan 1 0001 00:00
+
+        Learn more about Fly.io public, private, shared and dedicated IP addresses in our docs: https://fly.io/docs/reference/services/#ip-addresses
 
 ### &#x1F530; open :
 
