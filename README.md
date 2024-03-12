@@ -111,6 +111,10 @@ files structure :
 
     ❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
 
+        52eb0a6dc200
+        Untagged: flethello:latest
+        Deleted: sha256:c2776a18e47f8296e6d10202a08ea3cf0dbd133f3842673e816169e88d2e61bb
+
 ---
 
 
