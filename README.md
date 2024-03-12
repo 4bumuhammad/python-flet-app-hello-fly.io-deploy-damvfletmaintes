@@ -11,9 +11,9 @@ files structure :
         └── requirements.txt
 
 
-#### code :
+#### &#x1FAB6; code :
 
-Notes [enable clipboard on Vim] : 
+&#x1FAA7; Notes [enable clipboard on Vim] : 
 
 - to select all lines in the vim editor is to press the `ggVG` key, then if you want to copy all the context, also press the `"+y` key. And if you want to paste it into the vim editor, you can do the key `"+p`.
 
@@ -77,7 +77,7 @@ Notes [enable clipboard on Vim] :
     CMD ["python", "./main.py"]
 
 
-#### Test application with Docker container
+#### &#x1F525; Test application with Docker container
 
 list :
 
