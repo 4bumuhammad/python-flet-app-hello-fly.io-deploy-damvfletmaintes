@@ -308,6 +308,23 @@ check and watch for updates on the fly.io console dashboard
 
         Learn more about Fly.io public, private, shared and dedicated IP addresses in our docs: https://fly.io/docs/reference/services/#ip-addresses
 
+
+    ❯ flyctl services list
+
+        Services
+        PROTOCOL        PORTS           HANDLERS        FORCE HTTPS     PROCESS GROUP   REGIONS MACHINES 
+        TCP             80 => 8080      [HTTP]          True            app             sin     2       
+        TCP             443 => 8080     [TLS,HTTP]      False           app             sin     2       
+
+
 ### &#x1F530; open :
 
     ❯ flyctl open
+
+        Command "open" is deprecated, use `fly apps open` instead
+        opening https://damvfletmaintest.fly.dev/ ...
+
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_damvfletmaintest.fly.dev.png" alt="ss_damvfletmaintest.fly.dev" style="display: block; margin: 0 auto;">
+</p>
