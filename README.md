@@ -199,7 +199,7 @@ check and watch for updates on the fly.io console dashboard
     ❯ flyctl deploy
 
         ==> Verifying app config
-        Validating /Users/.../from-github-all/python-flet-app-hello-fly.io-deploy-damvfletmaintest/fly.toml
+        Validating /Users/.../python-flet-app-hello-fly.io-deploy-damvfletmaintest/fly.toml
         ✓ Configuration is valid
         --> Verified app config
         ==> Building image
