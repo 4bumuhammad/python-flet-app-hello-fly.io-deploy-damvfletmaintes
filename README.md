@@ -82,8 +82,17 @@ files structure :
 
 #### &#x1F525; Test application with Docker container
 
-list :
+    ❯ docker build -t flethello .
 
+    ❯ docker run -d --name flethello-app -p 8080:8080 flethello
+
+
+    # list
+
+    ❯ docker images
+
+
+    ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
 
 
 ---
