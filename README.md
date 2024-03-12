@@ -189,6 +189,10 @@ files structure :
 
 check and watch for updates on the fly.io console dashboard
 
+<p align="center">
+    <img src="./gambar-petunjuk/ss_fly.io_dashboard_apps.png" alt="ss_fly.io_dashboard_apps" style="display: block; margin: 0 auto;">
+</p>
+
 
 ### &#x1F530; deploy Apps :
 
