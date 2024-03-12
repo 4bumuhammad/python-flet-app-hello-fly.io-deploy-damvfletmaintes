@@ -27,54 +27,51 @@ files structure :
 - python
 
 
-    import flet as ft
+        import flet as ft
 
-    def main(page: ft.Page):
+        def main(page: ft.Page):
 
+            appbar = ft.AppBar(
+                title = ft.Text("Flet web app", size=45, color="white"),
+                bgcolor = "blue"
+            )
 
-        appbar = ft.AppBar(
-            title = ft.Text("Flet web app", size=45, color="white"),
-            bgcolor = "blue"
-        )
+            page.vertical_alignment = ft.MainAxisAlignment.CENTER
+            page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
-        page.vertical_alignment = ft.MainAxisAlignment.CENTER
-        page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+            content_1 = ft.Container(
+                content = ft.Column([
+                    ft.Text("Hello From Flet", size=40)
+                ])
+            )
 
-        content_1 = ft.Container(
-            content = ft.Column([
-                ft.Text("Hello From Flet", size=40)
-            ])
-        )
+            content_2 = ft.Container(
+                content = ft.Column([
+                    ft.Text("by Dhony Abu Muhammad", size=20)
+                ])
+            )
 
-        content_2 = ft.Container(
-            content = ft.Column([
-                ft.Text("by Dhony Abu Muhammad", size=20)
-            ])
-        )
+            page.add(appbar, content_1, content_2)
 
-
-        page.add(appbar, content_1, content_2)
-
-
-    ft.app(target=main, port=8080, view=None)
+        ft.app(target=main, port=8080, view=None)
 
 
 
 
 - Dockerfile 
 
-    FROM python:3-alpine
+        FROM python:3-alpine
 
-    WORKDIR /app
+        WORKDIR /app
 
-    COPY requirements.txt ./
-    RUN pip install --no-cache-dir -r requirements.txt
+        COPY requirements.txt ./
+        RUN pip install --no-cache-dir -r requirements.txt
 
-    COPY . .
+        COPY . .
 
-    EXPOSE 8080
+        EXPOSE 8080
 
-    CMD ["python", "./main.py"]
+        CMD ["python", "./main.py"]
 
 
 #### &#x1F525; Test application with Docker container
