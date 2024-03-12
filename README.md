@@ -187,7 +187,7 @@ files structure :
         New app created: damvfletmaintest
 
 
-check and watch for updates on the fly.io console dashboard
+check and watch for updates on the fly.io console dashboard (`https://fly.io/dashboard`)
 
 <p align="center">
     <img src="./gambar-petunjuk/ss_fly.io_dashboard_apps.png" alt="ss_fly.io_dashboard_apps" style="display: block; margin: 0 auto;">
@@ -276,7 +276,7 @@ check and watch for updates on the fly.io console dashboard
         Visit your newly deployed app at https://damvfletmaintest.fly.dev/
 
 
-check and watch for updates on the fly.io console dashboard
+check and watch for updates on the fly.io console dashboard (`https://fly.io/dashboard`)
 
 
 <p align="center">
