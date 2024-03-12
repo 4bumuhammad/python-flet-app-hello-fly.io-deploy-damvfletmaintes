@@ -91,10 +91,13 @@ files structure :
 
     ❯ docker images
 
+        REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+        flethello    latest    c2776a18e47f   6 seconds ago   143MB
 
     ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
 
-
+        CONTAINER ID   IMAGE       STATUS         NAMES           PORTS
+        52eb0a6dc200   flethello   Up 4 seconds   flethello-app   0.0.0.0:8080->8080/tcp
 ---
 
 
