@@ -100,6 +100,12 @@ files structure :
         52eb0a6dc200   flethello   Up 4 seconds   flethello-app   0.0.0.0:8080->8080/tcp
 ---
 
+#### Result :
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_flethello-app_container-1.png" alt="ss_flethello-app_container-1" style="display: block; margin: 0 auto;">
+</p>
+
 
 #### Reset containers :
 
