@@ -183,7 +183,12 @@ files structure :
 
     ❯ flyctl apps create --name damvfletmaintest
 
+        automatically selected personal organization: abumuhammad
+        New app created: damvfletmaintest
+
+
 check and watch for updates on the fly.io console dashboard
+
 
 ### &#x1F530; deploy Apps :
 
@@ -191,7 +196,9 @@ check and watch for updates on the fly.io console dashboard
 
 check and watch for updates on the fly.io console dashboard
 
+
 ### &#x1F530; check
+
 
 ### &#x1F530; open :
 
