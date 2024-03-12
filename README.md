@@ -62,18 +62,22 @@ files structure :
 
 - Dockerfile 
 
-        FROM python:3-alpine
+        ❯ vim Dockerfile
 
-        WORKDIR /app
 
-        COPY requirements.txt ./
-        RUN pip install --no-cache-dir -r requirements.txt
+            FROM python:3-alpine
 
-        COPY . .
+            WORKDIR /app
 
-        EXPOSE 8080
+            COPY requirements.txt ./
+            RUN pip install --no-cache-dir -r requirements.txt
 
-        CMD ["python", "./main.py"]
+            COPY . .
+
+            EXPOSE 8080
+
+            CMD ["python", "./main.py"]
+
 
 
 #### &#x1F525; Test application with Docker container
