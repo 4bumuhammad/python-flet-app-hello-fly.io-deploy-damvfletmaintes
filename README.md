@@ -172,3 +172,9 @@ files structure :
                 interval = "15s"
                 restart_limit = 0
                 timeout = "2s"
+
+#### check version :
+
+    ❯ flyctl version
+
+        flyctl v0.2.15 darwin/arm64 Commit: 846630217aff135b32ec0d6a018cf6bdde0f1762 BuildDate: 2024-03-10T09:52:28Z
